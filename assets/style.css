@@ -1,0 +1,132 @@
+body {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.navbar{
+  background-color: #0069AA;
+  color: white;
+  font-family: "Caslon";
+  font-style: italic;
+  font-weight: 500;
+}
+.jumbotron {
+  position: relative;
+  background: #000 url("http://adagiohospice.com/secure/wp-content/uploads/2015/01/Senior-Family-w-nurse-Original.jpg");
+  height: 500px;
+  background-size: cover;
+  overflow: hidden;
+}
+.jumbotron .container {
+  color: black;
+  margin-top: 325px;
+}
+.page {
+  padding-top: 20px;
+}
+.about {
+  font-size: 1.2em;
+}
+.jh {
+  background-color: gray;
+  opacity: .70;
+  width: inherit;
+}
+.navlogo img {
+  height: 30px;
+  margin-top: 10px;
+}
+@media (min-width: 768px) {
+  .navlogo img {
+    height: 40px;
+    margin-top: 20px;
+    padding-right: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .jumbotron {
+    height: 300px;
+  }
+  .jumbotron .container {
+    margin-top: 50px;
+  }
+}
+/*nav bar settingsV*/
+.navbar-fixed-top {
+  min-height: 80px;
+}
+.navbar-nav > li > a {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  line-height: 80px;
+}
+@media (max-width:767px) {
+  .navbar-fixed-top {
+    min-height: 50px;
+  }
+  .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+} 
+/*nav bar height settings^*/
+.navbar-default {
+  background-color: #0069aa;
+  border-color: #005387;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #005387;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #005387;
+}
+.navbar-default .navbar-toggle {
+  border-color: #005387;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #005387;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #005387;
+  }
+} 
+/*nav bar color settings^*/
