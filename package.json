@@ -6,11 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skunkface/SmoothTransitions.git"
+  },
   "author": "Chris Miller",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.5",
     "grunt": "^0.4.5",
     "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "grunt-open": "^0.2.3",
+    "grunt-serve": "^0.1.6"
   }
 }
