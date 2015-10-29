@@ -41,6 +41,9 @@ body {
 .navbar .mobilecontact {
   display: none;
 }
+.mobilecontact {
+  display: none;
+}
 .contact {
   font-size: .7em;
   text-align: right;
@@ -52,6 +55,12 @@ body {
 }
 .call {
   padding-top: 250px;
+  text-align: center;
+}
+.services {
+  font-size: .8em;
+}
+.snlink {
   text-align: center;
 }
 .footer {
@@ -74,7 +83,13 @@ body {
   .contact {
     display: none;
   }
+  .contactp {
+    display: none;
+  }
   .navbar .mobilecontact {
+    display: block;
+  }
+  .mobilecontact {
     display: block;
   }
   .call {
