@@ -32,10 +32,27 @@ body {
   background-color: gray;
   opacity: .70;
   width: inherit;
+  font-family: "Caslon";
 }
 .navlogo > img {
   height: 30px;
   margin-top: 10px;
+}
+.navbar .mobilecontact {
+  display: none;
+}
+.contact {
+  font-size: .7em;
+  text-align: right;
+  padding-left: 40px; 
+  font-weight: lighter;
+  padding-top: 15px;
+  margin-bottom: 0px;
+  font-family: "futura" ,sans-serif;
+}
+.call {
+  padding-top: 250px;
+  text-align: center;
 }
 .footer {
   position: absolute;
@@ -54,6 +71,15 @@ body {
     bottom: 0;
     height: 80px;
   }
+  .contact {
+    display: none;
+  }
+  .navbar .mobilecontact {
+    display: block;
+  }
+  .call {
+    padding-top: 20px;
+  }
 }
 @media (min-width: 768px) {
   .navlogo > img {
@@ -67,7 +93,7 @@ body {
     height: 300px;
   }
   .jumbotron .container {
-    margin-top: 50px;
+    margin-top: 120px;
   }
 }
 /*nav bar settingsV*/
@@ -78,6 +104,8 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
   line-height: 80px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 @media (max-width:767px) {
   .navbar-fixed-top {
